@@ -1,0 +1,218 @@
+﻿body 
+{
+    margin: 0%;
+    background-image: url('../Images/res_back3.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Box Layout*/
+.boxes
+{
+    //backbackground-color: cornflowerblue;
+    float: left;
+    width: 60rem;
+    height: 40rem;
+    margin-left: 20%;
+    margin-top: 2rem;
+}
+
+/*Top Box Layout*/
+.boxes .card-layout-top
+{
+    float: left;  
+    width: 16rem;
+    height: 16rem;  
+    background-color: black;
+    margin-left: 35%;
+    margin-right: 10rem;
+    margin-top: 2rem;
+    color: white;  
+}
+
+.boxes .card-layout-top .upper-layout
+{
+    float: left;
+    //background-color: yellow;
+    margin-left: 1.6rem;
+    margin-top: 2.5rem;
+    text-align: center;
+    font-family: 'Footlight MT';
+}
+
+.boxes .card-layout-top .lower-layout 
+{
+    float: left;
+    //background-color: green;
+    margin-top: 3rem;
+    margin-left: 4.5rem;
+    text-align: center;
+    font-family: Papyrus;
+    font-size: 8px;
+}
+/*End of Top Box*/
+
+/*Bottom Left Box Layout*/
+.boxes .card-layout-bottom-left
+{
+    float: left;
+    width: 16rem;
+    height: 16rem;
+    background-color: white;
+    margin-left: 2%;
+    margin-top: 4rem;
+    font-family: Calibri;
+    color: black;
+}
+
+.boxes .card-layout-bottom-left .upper-layout 
+{
+    float: left;
+    //background-color: green;
+    margin-left: 6rem;
+    margin-right: 2rem;
+    margin-top: 2.8rem;
+    margin-bottom: 0rem;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Bradley Hand ITC';
+}
+
+/*Menu Font Size*/
+.boxes .card-layout-bottom-left .upper-layout h6 b
+{
+    font-size: 24px;
+}
+
+/*Menu Links*/
+.boxes .card-layout-bottom-left .upper-layout h6 b a:link
+{
+    color: black;
+    text-decoration: none;
+}
+
+.boxes .card-layout-bottom-left .upper-layout h6 b a:visited
+{
+    color: aqua;
+}
+
+.boxes .card-layout-bottom-left .upper-layout h6 b a:hover
+{
+    color: steelblue;
+    text-decoration: none;
+}
+/*End of Menu Links*/
+
+.boxes .card-layout-bottom-left .lower-layout 
+{
+    float: left;
+    //background-color: green;
+    margin-top: 3rem;
+    margin-left: 3.2rem;
+    margin-bottom: 7rem;
+    text-align: center;
+    font-family: 'Bradley Hand ITC';
+}
+
+/*Menu Description Font Size*/
+.boxes .card-layout-bottom-left .lower-layout h6
+{
+    font-size: 20px;
+}
+/*End of Bottom Left Box*/
+
+/*Bottom Middle Box Layout*/
+.boxes .card-layout-bottom-middle
+{
+    float: left;
+    width: 16rem;
+    height: 16rem;
+    background-color: white;
+    margin-left: 6.5%;
+    margin-top: 4rem;
+    font-family: Calibri;
+    color: black;
+}
+
+.boxes .card-layout-bottom-middle .upper-layout 
+{
+    float: left;
+    //background-color: green;
+    margin-left: 4rem;
+    margin-right: 2rem;
+    margin-top: 2.8rem;
+    margin-bottom: 0rem;
+    text-align: center;
+    font-family: 'Bradley Hand ITC';
+}
+
+/*Reservation Font Size*/
+.boxes .card-layout-bottom-middle .upper-layout h6
+{
+    font-size: 24px;
+}
+
+.boxes .card-layout-bottom-middle .lower-layout 
+{
+    float: left;
+    //background-color: green;
+    margin-top: 3rem;
+    margin-left: 3.2rem;
+    text-align: center;
+    font-family: 'Bradley Hand ITC';
+}
+
+/*Reservation Description Font Size*/
+.boxes .card-layout-bottom-middle .lower-layout h6
+{
+    font-size: 20px;
+}
+/*End of Bottom Middle Box*/
+
+/*Bottom Right Box Layout*/
+.boxes .card-layout-bottom-right 
+{
+    float: left;
+    width: 16rem;
+    height: 16rem;
+    background-color: white;
+    margin-left: 6.5%;
+    margin-top: 4rem;
+    font-family: Calibri;
+    color: black;
+}
+
+.boxes .card-layout-bottom-right .upper-layout 
+{
+    float: left;
+    //background-color: green;
+    margin-left: 5rem;
+    margin-right: 2rem;
+    margin-top: 2.8rem;
+    margin-bottom: 0rem;
+    text-align: center;
+    font-family: 'Bradley Hand ITC';
+}
+
+/*Feedback Font Size*/
+.boxes .card-layout-bottom-right .upper-layout h6
+{
+    font-size: 24px;
+}
+
+.boxes .card-layout-bottom-right .lower-layout 
+{
+    float: left;
+    //background-color: green;
+    margin-top: 3rem;
+    margin-left: 3.5rem;
+    text-align: center;
+    font-family: 'Bradley Hand ITC';
+}
+
+/*Feedback Description Font Size*/
+.boxes .card-layout-bottom-right .lower-layout h6
+{
+    font-size: 20px;
+}
+/*End of Bottom Right Box*/

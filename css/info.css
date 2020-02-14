@@ -1,0 +1,146 @@
+﻿body 
+{
+    
+}
+
+/*Left Layout*/
+.left-layout {
+    float: left;
+    background-color: white;
+    width: 50%;
+    height: 47.1rem;
+    //background-image: url('../Images/dish3.jpeg');
+    background-image: url('../Images/dish4.jpeg');
+    //background-image: url('../Images/the_dish.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.left-layout .menu-layout
+{
+    float: left;
+    background-color: black;
+    width: 35%;
+    height: 30rem;
+    margin-left: 32%;
+    margin-top: 18%;
+}
+
+/*Title Background*/
+.left-layout .menu-layout .title-layout
+{
+    //background-color: red;
+    height: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+/*End of Title Background*/
+
+/*Title*/
+.left-layout .menu-layout .title-layout h6
+{
+    text-align: center;
+    font-family: 'Across the Road';
+    color: white;
+    font-size: 40px;
+}
+/*End of Title*/
+
+/*Menu Topics*/
+.left-layout .menu-layout .topics-layout ul
+{
+    list-style-type: none;
+    width: 100%;
+    border-top: 1px solid lightgrey;
+    margin: 0;
+    padding: 0;
+}
+
+.left-layout .menu-layout .topics-layout li a
+{
+    display: block;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.left-layout .menu-layout .topics-layout li
+{
+    text-align:center;
+    border-bottom: 1px solid lightgrey;
+    font-family: Calibri;
+}
+/*End of Menu Topics*/
+/*End of Left Layout*/
+
+/*Right Layout*/
+.right-layout
+{
+    float:left;
+    background-color: black;
+    width: 50%;
+    height: 47.1rem;
+}
+
+/*Info Layout*/
+.right-layout .info
+{
+    float: left;
+    //background-color: aliceblue;
+    width: 35%;
+    height: 30rem;
+    margin-left: 32%;
+    margin-top: 18%;
+}
+/*End of Info Layout*/
+
+/*Info Name*/
+.right-layout .info .info-name
+{
+    //background-color: aquamarine;
+    height: 7rem;
+    margin-top: 3rem;
+}
+
+.right-layout .info .info-name h3
+{
+    text-align: center;
+    font-family: 'Across the Road';
+    color: white;
+    font-size: 40px;
+}
+
+.right-layout .info .info-name h4
+{
+    margin-top: 1.5rem;
+    border-bottom: 1px solid lightgrey;
+}
+
+.right-layout .info .info-details h3
+{
+    text-align:center;
+    color: white;
+    font-family: 'Bradley Hand ITC';
+    font-size: 18px;
+}
+
+.right-layout .info .info-details h6
+{
+    margin-top: 2rem;
+    text-align:center;
+    color: white;
+    font-family: 'Bradley Hand ITC';
+    font-size: 18px;
+}
+
+.right-layout .info .info-details h6
+{
+    margin-top: 5rem;
+    text-align:center;
+    color: white;
+    font-family: 'Bradley Hand ITC';
+    font-size: 18px;
+}
+/*End of Right Layout*/

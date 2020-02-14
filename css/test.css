@@ -1,0 +1,9 @@
+﻿body {
+    background-image: url('../Images/res_background.jpg');
+}
+
+.hi 
+{
+    border: 10px solid yellow;
+    //color: white;
+}

@@ -27,8 +27,9 @@
             <div class="topics-layout">
                 <ul>
                     <li style="background-color: white"><a href="menu.aspx" style="color:black">MENU</a></li>
-                    <li><a href="">RESERVATION</a></li>
+                    <li><a href="reservation.aspx">RESERVATION</a></li>
                     <li><a href="info.aspx">INFO</a></li>
+                    <li><a href="login.aspx">LOGIN</a></li>
                     <li><a href="">FEEDBACK</a></li>
                 </ul>
             </div>
@@ -53,10 +54,10 @@
             <!-- Layout-->
             <div class="menu-list">
                 <ul>
-                    <li><a href="menu.aspx">Appetizers</a></li>
-                    <li><a href="">Lunch</a></li>
-                    <li><a href="">Dinner</a></li>
-                    <li><a href="">Specials</a></li>
+                    <li><a href="appetizers.aspx">Appetizers</a></li>
+                    <li><a href="lunch.aspx">Lunch</a></li>
+                    <li><a href="dinner.aspx">Dinner</a></li>
+                    <li><a href="special.aspx">Specials</a></li>                    
                 </ul>
             </div>
         </div>

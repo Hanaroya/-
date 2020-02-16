@@ -1,9 +1,30 @@
-﻿body {
-    background-image: url('../Images/res_background.jpg');
+﻿body 
+{
+    background-image: url('../Images/dish4.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.hi 
+/*Main Wrapper*/
+.main-wrapper 
 {
-    border: 10px solid yellow;
-    //color: white;
+    float: left;
+    background-color: whitesmoke;
+    //background-color: yellow;
+    width: 60%;
+    height: 650px;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+.main-wrapper .but
+{
+    margin-top: 2rem;
+    margin-left: 0rem;
+}
+
+.main-wrapper .but .p .b .u
+{
+   text-align: center;
+   font-size: 240px; 
 }

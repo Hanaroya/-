@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="Restaurant.form" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="Restaurant.login" %>
 
 <!DOCTYPE html>
 
@@ -53,12 +53,22 @@
             <!--Info details Layout-->
             <div class="info-details">
                 <!--Form details Layout-->
-                <form id="form2" runat="server">
-                    <h6>Enter Username</h6><asp:TextBox ID="TextBox1" runat="server" CssClass="textbox1"></asp:TextBox><br />
-                    <h6>Enter Password</h6><asp:TextBox ID="TextBox2" runat="server" CssClass="textbox2"></asp:TextBox><br />
-                    <div class="button">
-                        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Login" cssClass="btn btn-amber btn-lg"/>
-                    </div>                    
+                <form id="form2" runat="server"> 
+                    <div class="validate">
+                        <asp:Label ID="Label1" runat="server" Display="Dyanmic" style="color: indianred"></asp:Label><br />
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="*Please Enter the Username" ControlToValidate="TextBox1" Display="Dynamic"></asp:RequiredFieldValidator><br />
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="*Please Enter the Password" ControlToValidate="TextBox2" Display="Dynamic"></asp:RequiredFieldValidator><br />
+                        
+                    </div>
+                    
+                    <div class="form-data">
+                        <h6>Enter Username:</h6><asp:TextBox ID="TextBox1" runat="server" CssClass="textbox1" ></asp:TextBox><br />
+                        <h6>Enter Password:</h6><asp:TextBox ID="TextBox2" runat="server" TextMode="Password" CssClass="textbox2"></asp:TextBox><br />
+                        <div class="button">
+                            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Login" cssClass="btn btn-amber btn-lg"/>
+                        </div>  
+                    </div>
+                                      
                 </form>
                 <!--End of Form Layout-->
 

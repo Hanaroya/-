@@ -1,0 +1,134 @@
+﻿body 
+{
+    background-image: url('../Images/dish4.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Main Wrapper*/
+.main-wrapper
+{
+    float: left;
+    background-color: whitesmoke;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+/*End of Main Wrapper*/
+
+/*Form-layout*/
+.main-wrapper .form-layout
+{
+    //background-color: yellow;
+    float: left;
+    margin-left: 30rem;
+    width: 60%;
+}
+
+/*Reservation Title*/
+.main-wrapper .form-layout h3
+{
+    float: left;
+    text-align: center;
+    width:80%;
+    //margin-left: 6rem;
+    font-family: 'Across the Road';
+    font-size: 70px;
+    font-weight: bold;
+}
+/*End of Reservation Title*/
+
+/*Names and Textboxes*/
+.main-wrapper .form-layout .name-tags
+{
+    float: left;
+    //background-color: blue;
+    padding: 2.8rem;
+}
+/*Names and Textboxes*/
+/*End of Form-layout*/
+
+/*Calender layout*/
+.main-wrapper .calender-layout
+{
+    float: left;
+    //background-color: pink;
+    width: 36%;
+    margin-left: 46rem;
+    text-align: center;
+}
+
+.main-wrapper .calender-layout h6
+{
+    margin-right: 20rem;
+}
+/*End of Calender layout*/
+
+/*Calender Date Display*/
+.main-wrapper .display-calender-date
+{
+    float: left;
+    width: 30%;
+    //background-color: blue;
+    margin-right: 2rem;
+    margin-left: 50rem;
+}
+/*End of Calender Date Display*/
+
+/*Time and # People*/
+.main-wrapper .time-number
+{
+    float: left;
+    width: 100%;
+    margin-top: 2rem;
+    margin-left: 25rem;
+}
+
+.main-wrapper .time-number .time
+{
+    float: left;
+    margin-left: 12rem;
+    margin-top: 0.9rem;
+}
+
+.main-wrapper .time-number .number
+{
+    float: left;
+    margin-left: 4rem;
+}
+/*End of Time and # People*/
+
+/*Table layout*/
+.main-wrapper .table
+{
+    float: left;
+    margin-top: 2rem;
+    margin-left: 15rem;
+    width: 75%;
+}
+
+.main-wrapper .table h6
+{
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+.main-wrapper .table .tab
+{
+    float: left;
+    //padding: 10px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+/*End of Table layout*/
+
+/*Button Layout*/
+.main-wrapper .button
+{
+    float: left;
+    margin-left: 43rem;
+    margin-bottom: 2rem;
+}
+

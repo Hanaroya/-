@@ -1,0 +1,22 @@
+﻿body 
+{
+    background-image: url('../Images/dish4.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Main Wrapper*/
+.main-wrapper 
+{
+    float: left;
+    background-color: whitesmoke;
+    //background-color: yellow;
+    width: 60%;
+    height: 650px;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+
+/*End of Main Wrapper*/
+

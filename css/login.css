@@ -9,8 +9,7 @@
     background-color: white;
     width: 50%;
     height: 799px;
-    //
-background-image: url('../Images/dish3.jpeg');
+    //background-image: url('../Images/dish3.jpeg');
     background-image: url('../Images/dish4.jpeg');
     //background-image: url('../Images/the_dish.jpg');
     background-size: cover;
@@ -80,7 +79,7 @@ background-image: url('../Images/dish3.jpeg');
 .right-layout
 {
     float:left;
-    background-color: slategrey;
+    background-color: whitesmoke;
     width: 50%;
     height: 47.1rem;
 }
@@ -109,14 +108,14 @@ background-image: url('../Images/dish3.jpeg');
 {
     text-align: center;
     font-family: 'Bradley Hand ITC';
-    color: white;
+    color: black;
     font-size: 40px;
 }
 
 .right-layout .info .info-name h4
 {
     margin-top: 1.5rem;
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid black;
 }
 
 .right-layout .info .info-details 
@@ -131,6 +130,24 @@ background-image: url('../Images/dish3.jpeg');
     //background-color: yellow;
 }
 
+.right-layout .info .info-details .validate
+{
+    float: left;
+    text-align: center;
+    margin-top: -2rem;
+    font-family: Calibri;
+    color: indianred;
+    //background-color: yellow;
+}
+
+.right-layout .info .info-details .form-data
+{
+    float: left;
+    //background-color: pink;
+    width: 20rem;
+}
+
+
 .right-layout .info .info-details h6
 {
     float: left;
@@ -138,6 +155,7 @@ background-image: url('../Images/dish3.jpeg');
     font-size: 17px;
     margin-top: 0.4rem;
     margin-bottom: 2.3rem;
+    color: black;
 }
 
 /*Form Details*/
@@ -145,6 +163,7 @@ background-image: url('../Images/dish3.jpeg');
 {
     float: right;
     margin-bottom: 2rem;
+    font-family: Calibri;
 }
 
 .right-layout .info .info-details .textbox2

@@ -141,6 +141,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="admincontrol.aspx" />
+    <Content Include="appetizers.aspx" />
     <Content Include="App_Data\Database1.mdf" />
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
@@ -159,19 +161,27 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="css\appetizers.css" />
+    <Content Include="css\dinner.css" />
     <Content Include="css\home.css" />
     <Content Include="css\Images\res_background.jpg" />
     <Content Include="css\info.css" />
     <Content Include="css\login.css" />
+    <Content Include="css\loginsuccess.css" />
+    <Content Include="css\lunch.css" />
     <Content Include="css\menu.css" />
+    <Content Include="css\reservation.css" />
     <Content Include="css\res_background.jpg" />
+    <Content Include="css\sales.css" />
     <Content Include="css\signup.css" />
+    <Content Include="css\signupsuccess.css" />
+    <Content Include="css\special.css" />
     <Content Include="css\test.css" />
     <Content Include="Default.aspx" />
+    <Content Include="dinner.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="feedback.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="login.aspx" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -190,6 +200,8 @@
     <Content Include="bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\Across the Road.ttf" />
+    <Content Include=".editorconfig" />
+    <Content Include="Inventory.aspx" />
     <None Include="_bin_deployableAssemblies\x86\sqlcese40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceqp40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceme40.dll" />
@@ -208,18 +220,56 @@
     <None Include="_bin_deployableAssemblies\amd64\Microsoft.VC90.CRT\msvcr90.dll" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="home.aspx" />
+    <Content Include="Images\arroz_con.jpg" />
+    <Content Include="Images\bistecca.jpg" />
+    <Content Include="Images\burger.jpg" />
+    <Content Include="Images\butter_chk.jpg" />
+    <Content Include="Images\ceviche.jpg" />
+    <Content Include="Images\chips_salsa.jpg" />
+    <Content Include="Images\chk_alfredo.jpg" />
+    <Content Include="Images\chk_biryani.jpg" />
+    <Content Include="Images\chk_ceasar.jpg" />
+    <Content Include="Images\chk_haba.jpg" />
+    <Content Include="Images\chk_strips.jpg" />
+    <Content Include="Images\chk_tandoori.jpg" />
+    <Content Include="Images\chk_tikka.jpg" />
+    <Content Include="Images\chk_wings.jpg" />
     <Content Include="Images\dish.jpeg" />
     <Content Include="Images\dish2.jpeg" />
     <Content Include="Images\dish3.jpeg" />
     <Content Include="Images\dish4.jpeg" />
+    <Content Include="Images\herbed_fish.jpg" />
+    <Content Include="Images\herb_pork.jpg" />
+    <Content Include="Images\japchae.jpg" />
+    <Content Include="Images\Jjigae.jpg" />
+    <Content Include="Images\lamb_chops.jpg" />
+    <Content Include="Images\leche_tigre.jpg" />
+    <Content Include="Images\lomo_sal.jpg" />
+    <Content Include="Images\mozz_sticks.jpg" />
+    <Content Include="Images\mush_pasta.jpg" />
     <Content Include="Images\res_back2.jpg" />
     <Content Include="Images\res_back3.jpeg" />
     <Content Include="Images\res_background.jpg" />
     <Content Include="Images\spoon.jpeg" />
+    <Content Include="Images\steak_pepper.jpg" />
+    <Content Include="Images\s_avocado.jpg" />
+    <Content Include="Images\table.png" />
+    <Content Include="Images\table_selected.png" />
+    <Content Include="Images\table_suggestion.png" />
+    <Content Include="Images\table_suggestion_selected.png" />
+    <Content Include="Images\table_unavailable.png" />
     <Content Include="Images\the_dish.jpg" />
     <Content Include="info.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="loginsuccess.aspx" />
+    <Content Include="lunch.aspx" />
     <Content Include="menu.aspx" />
+    <Content Include="Purchase.aspx" />
+    <Content Include="Reservation.aspx" />
+    <Content Include="Reservation_confirm.aspx" />
+    <Content Include="Reservation_Control.aspx" />
     <Content Include="res_background.jpg" />
+    <Content Include="sales.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -249,7 +299,9 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="signup.aspx" />
+    <Content Include="signupsuccess.aspx" />
     <Content Include="Site.Master" />
+    <Content Include="special.aspx" />
     <Content Include="test.aspx" />
     <Content Include="testback.aspx" />
     <Content Include="ViewSwitcher.ascx" />
@@ -262,6 +314,20 @@
     <None Include="_bin_deployableAssemblies\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="admincontrol.aspx.cs">
+      <DependentUpon>admincontrol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admincontrol.aspx.designer.cs">
+      <DependentUpon>admincontrol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="appetizers.aspx.cs">
+      <DependentUpon>appetizers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="appetizers.aspx.designer.cs">
+      <DependentUpon>appetizers.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -285,19 +351,19 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="dinner.aspx.cs">
+      <DependentUpon>dinner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dinner.aspx.designer.cs">
+      <DependentUpon>dinner.aspx</DependentUpon>
+    </Compile>
     <Compile Include="feedback.aspx.cs">
       <DependentUpon>feedback.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="feedback.aspx.designer.cs">
       <DependentUpon>feedback.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="login.aspx.cs">
-      <DependentUpon>login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="login.aspx.designer.cs">
-      <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -316,6 +382,27 @@
     <Compile Include="info.aspx.designer.cs">
       <DependentUpon>info.aspx</DependentUpon>
     </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="loginsuccess.aspx.cs">
+      <DependentUpon>loginsuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="loginsuccess.aspx.designer.cs">
+      <DependentUpon>loginsuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lunch.aspx.cs">
+      <DependentUpon>lunch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lunch.aspx.designer.cs">
+      <DependentUpon>lunch.aspx</DependentUpon>
+    </Compile>
     <Compile Include="menu.aspx.cs">
       <DependentUpon>menu.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -324,12 +411,54 @@
       <DependentUpon>menu.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Purchase.aspx.cs">
+      <DependentUpon>Purchase.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Purchase.aspx.designer.cs">
+      <DependentUpon>Purchase.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reservation.aspx.cs">
+      <DependentUpon>Reservation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reservation.aspx.designer.cs">
+      <DependentUpon>Reservation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reservation_confirm.aspx.cs">
+      <DependentUpon>Reservation_confirm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reservation_confirm.aspx.designer.cs">
+      <DependentUpon>Reservation_confirm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reservation_Control.aspx.cs">
+      <DependentUpon>Reservation_Control.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reservation_Control.aspx.designer.cs">
+      <DependentUpon>Reservation_Control.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sales.aspx.cs">
+      <DependentUpon>sales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sales.aspx.designer.cs">
+      <DependentUpon>sales.aspx</DependentUpon>
+    </Compile>
     <Compile Include="signup.aspx.cs">
       <DependentUpon>signup.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="signup.aspx.designer.cs">
       <DependentUpon>signup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="signupsuccess.aspx.cs">
+      <DependentUpon>signupsuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="signupsuccess.aspx.designer.cs">
+      <DependentUpon>signupsuccess.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -344,6 +473,13 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="special.aspx.cs">
+      <DependentUpon>special.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="special.aspx.designer.cs">
+      <DependentUpon>special.aspx</DependentUpon>
     </Compile>
     <Compile Include="test.aspx.cs">
       <DependentUpon>test.aspx</DependentUpon>
@@ -368,6 +504,13 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory.aspx.cs">
+      <DependentUpon>Inventory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inventory.aspx.designer.cs">
+      <DependentUpon>Inventory.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

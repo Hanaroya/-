@@ -79,7 +79,7 @@
 .right-layout
 {
     float:left;
-    background-color: slategrey;
+    background-color: whitesmoke;
     width: 50%;
     height: 47.1rem;
 }
@@ -92,7 +92,7 @@
     width: 42%;
     height: 30rem;
     margin-left: 30%;
-    margin-top: 18%;
+    margin-top: 10%;
 }
 /*End of Info Layout*/
 
@@ -108,14 +108,14 @@
 {
     text-align: center;
     font-family: 'Bradley Hand ITC';
-    color: white;
+    color: black;
     font-size: 40px;
 }
 
 .right-layout .info .info-name h4
 {
     margin-top: 1.5rem;
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid black;
 }
 
 .right-layout .info .info-details 
@@ -123,35 +123,56 @@
     float: left;
     text-align:center;
     color: white;
-    font-family: 'Bradley Hand ITC';
+    font-family: Calibri;
     font-size: 18px;
     height: 10rem;
     width: 20rem;
     //background-color: yellow;
 }
 
+.right-layout .info .info-details .validate
+{
+    float: left;
+    text-align: center;
+    margin-top: -2rem;
+}
+
+.right-layout .info .info-details .form-data
+{
+    float: left;
+    //background-color: pink;
+    width: 32rem;
+}
+
 .right-layout .info .info-details h6
 {
     float: left;
-    font-family: Calibri;
+    //font-family: Calibri;
     font-size: 17px;
-    margin-top: 0.4rem;
-    margin-bottom: 2.3rem;
+    margin-top: 0.6rem;
+    margin-bottom: 2.2em;
+    color: black;
 }
 
 /*Form Details*/
 .right-layout .info .info-details .textbox1
 {
     float: right;
-    margin-bottom: 2rem;
-    font-weight: bold;
-    //font-family: Calibri;
+    margin-bottom: 2.2rem;
+    font-family: Calibri;
+    margin-right: 12rem;
 }
 
-.right-layout .info .info-details .textbox2
+.right-layout .info .info-details .field-validation-error
 {
-    float: right;
+    float: left;
+    color: aqua;
+    text-align: center;
+    list-style: circle;
+    color: indianred;
 }
+
+
 
 /*BootStrap Button Details*/
 .right-layout .info .info-details .button
@@ -167,6 +188,7 @@
     font-weight: bold;
     width: 7.1rem;
     margin-left: 6rem;
+    font-family: 'Bradley Hand ITC';
 }
 /*End of Bootstrap Details*/
 
